@@ -1,0 +1,18 @@
+header{
+    font-size: 30px;
+    padding: 20px;
+    background-color: darkviolet;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}

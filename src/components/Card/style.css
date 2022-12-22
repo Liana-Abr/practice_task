@@ -1,0 +1,15 @@
+.card{
+    font-weight: bold;
+    width: 200px;
+    padding: 35px;
+    background-color: #f1efef;
+}
+li {
+    margin: 0 0 6px 0;
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    text-align: left;
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
