@@ -1,11 +1,12 @@
 import React from 'react';
 import "./style.css";
 import Card from "../Card";
+import fields from "../../data.json";
 
-const Cards = (props) => {
+const Cards = ({data}) => {
     return (
         <div className="cards">
-            <Card fields={props.fields}/>
+            <Card data={fields} />
 
 
         </div>

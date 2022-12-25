@@ -1,13 +1,13 @@
 import React from 'react';
 import "./style.css";
 
-const Card = (props) => {
+const Card = ({data}) => {
 
     return (
         <>
         <div className="card">
             <ul>
-                {props.fields.map(el =>(
+                {data.map(el =>(
                     <li key={el.id}>
                         <strong>{el.text}:</strong>
                         {el.data}

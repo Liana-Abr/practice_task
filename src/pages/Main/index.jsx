@@ -7,7 +7,7 @@ import "./style.css";
 const Main = (props) => {
     return (
             <Routes>
-                    <Route path="/" element={<Home fields={props.fields}  />}/>
+                    <Route path="/" element={<Home  />}/>
                     <Route path="/admin" element={<Admin />}/>
             </Routes>
     );
