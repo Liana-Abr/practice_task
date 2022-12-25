@@ -2,13 +2,11 @@ import React from 'react';
 import "./style.css";
 import Card from "../Card";
 
-const Cards = () => {
+const Cards = (props) => {
     return (
         <div className="cards">
-          <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+            <Card fields={props.fields}/>
+
 
         </div>
     );

@@ -1,21 +1,22 @@
 import React from 'react';
 import "./style.css";
 
-const Card = () => {
+const Card = (props) => {
+
     return (
+        <>
         <div className="card">
             <ul>
-                <li>Дата парсинга</li>
-                <li>Название</li>
-                <li>Описание</li>
-                <li>Цена</li>
-                <li>Продавец</li>
-                <li>Рейтинг продавца</li>
-                <li>Дата доставки</li>
-                <li>Количество отзывов</li>
-                <li>Рейтинг товара</li>
+                {props.fields.map(el =>(
+                    <li key={el.id}>
+                        <strong>{el.text}:</strong>
+                        {el.data}
+                    </li>
+
+                ))}
             </ul>
         </div>
+        </>
     );
 };
 

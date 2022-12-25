@@ -4,10 +4,10 @@ import Home from "../Home";
 import Admin from "../Admin";
 import "./style.css";
 
-const Main = () => {
+const Main = (props) => {
     return (
             <Routes>
-                    <Route path="/" element={<Home />}/>
+                    <Route path="/" element={<Home fields={props.fields}  />}/>
                     <Route path="/admin" element={<Admin />}/>
             </Routes>
     );
