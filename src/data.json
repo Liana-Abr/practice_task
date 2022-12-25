@@ -1,48 +1,50 @@
 [
   {
     "id":"1",
-    "text":"Дата парсинга",
-    "data": "22.02.2022"
+    "parseDate": "22.02.2022",
+    "name": "Джинсы",
+    "price": "2999",
+    "description": "Джинсы черные",
+    "seller": "ИП",
+    "sellerRating": "4.6",
+    "deliveryDate": "24.02.2022",
+    "numOfReviews": "20",
+    "itemRating": "5"
   },
   {
     "id":"2",
-    "text":"Название",
-    "data": "Джинсы"
+    "parseDate": "22.02.2022",
+    "name": "Джинсы",
+    "price": "2999",
+    "description": "Джинсы черные",
+    "seller": "ИП",
+    "sellerRating": "4.6",
+    "deliveryDate": "24.02.2022",
+    "numOfReviews": "20",
+    "itemRating": "5"
   },
   {
     "id":"3",
-    "text":"Описание",
-    "data": "Джинсы черные"
+    "parseDate": "22.02.2022",
+    "name": "Джинсы",
+    "price": "2999",
+    "description": "Джинсы черные",
+    "seller": "ИП",
+    "sellerRating": "4.6",
+    "deliveryDate": "24.02.2022",
+    "numOfReviews": "20",
+    "itemRating": "5"
   },
   {
     "id":"4",
-    "text":"Цена",
-    "data": "2999"
-  },
-  {
-    "id":"5",
-    "text":"Продавец",
-    "data": "ИП"
-
-  },
-  {
-    "id":"6",
-    "text":"Рейтинг продавца",
-    "data": "4.6"
-  },
-  {
-    "id":"7",
-    "text":"Дата доставки",
-    "data": "24.02.2022"
-  },
-  {
-    "id":"8",
-    "text":"Количество отзывов",
-    "data": "20"
-  },
-  {
-    "id":"9",
-    "text":"Рейтинг товара",
-    "data": "5"
+    "parseDate": "22.02.2022",
+    "name": "Джинсы",
+    "price": "2999",
+    "description": "Джинсы черные",
+    "seller": "ИП",
+    "sellerRating": "4.6",
+    "deliveryDate": "24.02.2022",
+    "numOfReviews": "20",
+    "itemRating": "5"
   }
 ]
