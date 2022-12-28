@@ -4,8 +4,8 @@ import "./style.css";
 const Header = () => {
     return (
         <header>
-            <Link to="/" className="logo">WB</Link>
-            <Link to="/admin">Админка</Link>
+            <Link to="/" className="logo">WB <span>парсер</span></Link>
+
         </header>
     );
 };

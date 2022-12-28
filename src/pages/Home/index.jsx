@@ -7,7 +7,7 @@ function Home (props) {
     return (
         <div className="container">
             <h1>Товары</h1>
-            <Cards data={fields}  />
+            <Cards data={props.items}  />
             {/*<ul>*/}
             {/*    {props.fields.map(el =>(*/}
             {/*        <li>*/}
