@@ -25,7 +25,7 @@ const Cards = () => {
     return (
         <div className="cards">
             {items.map((product) => (
-                <a href={'/'} className="card" key={product.id}>
+                <a href={''} className="card" key={product.id}>
                     <img className="card-img" src={`https://basket-10.wb.ru/vol${product.id.toString().substring(0, 4)}/part${product.id.toString().substring(0, 6)}/${product.id}/images/c516x688/1.jpg`} alt="Изображение не найдено"/>
 
                     <h3>{product.brand}</h3>
