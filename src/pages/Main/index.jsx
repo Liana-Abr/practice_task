@@ -1,14 +1,12 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 import Home from "../Home";
-import Admin from "../Admin";
 import "./style.css";
 
-const Main = (props) => {
+const Main = () => {
     return (
             <Routes>
-                    <Route path="/" element={<Home data={props.items} />}/>
-                    <Route path="/admin" element={<Admin />}/>
+                    <Route path="/" element={<Home />}/>
             </Routes>
     );
 };
