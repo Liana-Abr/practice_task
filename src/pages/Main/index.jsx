@@ -3,10 +3,10 @@ import {Route, Routes} from 'react-router-dom';
 import Home from "../Home";
 import "./style.css";
 
-const Main = () => {
+const Main = (props) => {
     return (
             <Routes>
-                    <Route path="/" element={<Home />}/>
+                    <Route path="/" element={<Home data={props.data}/>}/>
             </Routes>
     );
 };

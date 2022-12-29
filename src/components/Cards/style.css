@@ -1,33 +1,5 @@
 .cards{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(6,1fr);
     gap: 50px;
-}
-.card{
-    color: black;
-    padding: 30px;
-    background-color: #f1efef;
-}
-.card-img{
-    width: 300px;
-}
-.card-price{
-    font-weight: bold;
-    font-size: 25px;
-}
-.card-price-sale{
-    color: red;
-    font-weight: bold;
-    font-size: 20px;
-
-}
-.card-lastpr{
-    color: cadetblue;
-    font-size: 20px;
-}
-.card-old-price{
-    text-decoration: line-through;
-}
-.card-new-price{
-    font-weight: bold;
 }
