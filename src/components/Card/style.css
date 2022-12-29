@@ -1,4 +1,6 @@
 .card{
+    width: 200px;
+    margin: 20px;
     color: black;
     padding: 30px;
     background-color: #f1efef;
